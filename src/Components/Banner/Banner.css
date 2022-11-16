@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.leftSideDesc{
+    width: 500px;
+    color: white;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;    
+}
+.leftSideDesc h1{
+    font-size: 100px;
+}
+.leftSideDesc p{
+    line-height: 1.5rem;
+}
+.rightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.explore{
+    background:white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

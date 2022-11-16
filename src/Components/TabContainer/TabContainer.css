@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabContainer .sss{
+     background: transparent;
+     backdrop-filter: saturate(180%) blur(10px);
+     color: white;
+}

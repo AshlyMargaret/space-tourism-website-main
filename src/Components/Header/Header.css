@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.horizontalLine{
+    width: 600px;
+    height:2px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    z-index: 999;
+}
+.navBar{
+    width: 600px;
+    padding: 20px;
+    backdrop-filter: saturate(180%) blur(5px);
+}
+.logo{
+    padding-left: 30px;
+}
+
