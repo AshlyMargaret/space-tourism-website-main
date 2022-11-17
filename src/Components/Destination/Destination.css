@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.destination{
+    background: url("../../images/starter-code/assets/destination/background-destination-desktop.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.destinationBanner{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.rightDestination{
+    padding-top: 60px;
+}
+.rightDestinationAlign{
+    padding-left: 30px;
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+.destinationImg{
+    margin-top: 60px;
+}
+.destinationImg img{
+    width: 300px;
+}
+.destinatonTitle h3{
+    color: white;
+}
