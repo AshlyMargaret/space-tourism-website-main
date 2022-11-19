@@ -37,3 +37,10 @@
 .destinatonTitle h3{
     color: white;
 }
+.destinationDetails{
+    border-top: 1px solid white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}

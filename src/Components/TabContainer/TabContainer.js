@@ -15,12 +15,12 @@ function TabContainer() {
     }
   return (
     <div className='tabContainer'>
-         <Box className='sss' sx={{ width: '100%', bgcolor: 'background.paper' }}>
+         <Box className='sss' sx={{ width: '100%' }}>
            <Tabs className='sss' value={value} onChange={handleChange} centered>
-           <Link to="/"><Tab className='sss' label="00 HOME" /></Link> 
-            <Link to="/destination_page"><Tab label="01 DESTINATION" /></Link> 
-            <Tab label="02 CREW" />
-            <Tab label="03 TECHNOLOGY" />
+           <Link to="/"><Tab className='sss' label="00 HOME" sx={{color:'white'}} /></Link> 
+            <Link to="/destination_page"><Tab label="01 DESTINATION" sx={{color:'white'}} /></Link> 
+            <Link to="/crew_page"><Tab label="02 CREW" sx={{color:'white'}}/></Link> 
+            <Link to="/technology_page"><Tab label="03 TECHNOLOGY" sx={{color:'white'}} /></Link>
           </Tabs>
         </Box>
     </div>

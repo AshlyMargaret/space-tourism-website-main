@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.technology{
+    background: url('../../images/starter-code/assets/technology/background-technology-desktop.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.technologyTitle{
+    width: 100%;
+    color: white;
+    text-align: left;
+    margin-top: 60px;
+    padding-left: 60px;
+}
+.ccc{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+h5,span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size:20px;
+    letter-spacing: 2px;
+}
+h5{
+            
+    margin-top: 212px;
+    margin-bottom: -80px;
+    margin-left: 175px;
+}
+span{
+    font-weight: 700;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.Swiper{
+    height: 80vh;
+}
+h4{
+    font-size: 16px;
+    font-family: 'Bellefair', serif;
+    font-weight: 700;
+    color: white;
+}
+.swiper-pagination {
+    margin-bottom: 230px;
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.swiper-pagination-bullet{
+    background-color: transparent;
+    padding: 35px;
+    display: flex;
+  
+    margin-top: 33px;
+    opacity: 0.25;
+    border: 1px solid #FFFFFF;
+}
+.swiper-pagination-bullet-active{
+    background-color: blue;
+    color: white;
+    opacity: 1;
+}
+
+.ccc img{
+    width: 600px;
+}

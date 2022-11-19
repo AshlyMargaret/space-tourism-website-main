@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../../images/starter-code/assets/crew/background-crew-desktop.jpg');
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.crewTitle{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 30px;
+}
+.crewDetails{
+  
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    /* padding: 20px; */
+    text-align: left;
+    margin-top: 60px;
+    
+ 
+}
+.crewImage img{
+    width: 300px;
+}
+.crewImage{
+    display: flex;
+    flex-direction: row;
+}
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+

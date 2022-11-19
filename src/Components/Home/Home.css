@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 .home{
     background: url("../../images/starter-code/assets/home/background-home-desktop.jpg");
     background-color: #cccccc; /* Used if the image is unavailable */
