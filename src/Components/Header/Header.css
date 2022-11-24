@@ -27,3 +27,69 @@
     padding-left: 30px;
 }
 
+.menuIcon i{
+    color: white;
+    font-size: 25px;
+}
+.menuIcon{
+    display: none;
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+
+    .horizontalLine{
+        display: none;
+    }
+    .navBar{
+        display: none;
+    }
+    .menuIcon{
+        display: block;
+        padding-right: 15px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    .hideBar{
+        padding-left: 20px;
+        padding-top: 20px;
+        background: transparent;
+        backdrop-filter: saturate(180%) blur(10px);
+        color: white;
+        width: 200px;
+        height: 500px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+    .hideBar ul{
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    .header{
+        position: relative;
+    }
+    .hideBar{
+        position: absolute;
+        top:60px;
+        right: 10px;
+    }
+    .closeBtn{
+      position: relative;
+    }
+   .closeBtn i{
+     position: absolute;
+     right: 10px;
+   }
+    
+}

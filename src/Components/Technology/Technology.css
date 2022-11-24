@@ -6,7 +6,7 @@
 .technology{
     background: url('../../images/starter-code/assets/technology/background-technology-desktop.jpg');
     background-color: #cccccc; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
+    /* height: 100vh; You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -18,10 +18,13 @@
     text-align: left;
     margin-top: 60px;
     padding-left: 60px;
+    margin-bottom: 60px;
 }
 .ccc{
+    margin-left: 200px;
    display: grid;
    grid-template-columns: 1fr 1fr;
+   gap: 20px;
 }
 h5,span{
     font-family: 'Barlow Condensed', sans-serif;
@@ -55,11 +58,13 @@ h4{
     margin-left: 0px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 .swiper-pagination-bullet{
     background-color: transparent;
     padding: 35px;
     display: flex;
+    
   
     margin-top: 33px;
     opacity: 0.25;
@@ -71,6 +76,17 @@ h4{
     opacity: 1;
 }
 
-.ccc img{
-    width: 600px;
+.technology-image{
+    width: 500px;
+    height: 300px;
+}
+.technology-text{
+    text-align: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.technologySliders{
+    margin-left: 60px;
 }

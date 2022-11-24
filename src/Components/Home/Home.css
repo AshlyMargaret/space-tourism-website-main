@@ -9,7 +9,7 @@ body{
 .home{
     background: url("../../images/starter-code/assets/home/background-home-desktop.jpg");
     background-color: #cccccc; /* Used if the image is unavailable */
-    height: 100vh; /* You must set a specified height */
+    /* height: 100vh; You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -18,3 +18,8 @@ body{
     padding-top: 30px;
 }
 
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+    
+}

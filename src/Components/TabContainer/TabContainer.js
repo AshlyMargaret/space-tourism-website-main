@@ -16,7 +16,7 @@ function TabContainer() {
   return (
     <div className='tabContainer'>
          <Box className='sss' sx={{ width: '100%' }}>
-           <Tabs className='sss' value={value} onChange={handleChange} centered>
+           <Tabs className='sss tabbbs' value={value} onChange={handleChange} centered>
            <Link to="/"><Tab className='sss' label="00 HOME" sx={{color:'white'}} /></Link> 
             <Link to="/destination_page"><Tab label="01 DESTINATION" sx={{color:'white'}} /></Link> 
             <Link to="/crew_page"><Tab label="02 CREW" sx={{color:'white'}}/></Link> 

@@ -8,3 +8,14 @@
      backdrop-filter: saturate(180%) blur(10px);
      color: white;
 }
+
+/* Media Query */
+
+@media screen and (max-width: 767px) {
+
+    .tabbbs{
+        display: flex;
+        flex-direction: column;
+    }
+     
+ }

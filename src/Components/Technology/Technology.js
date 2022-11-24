@@ -61,7 +61,7 @@ function Technology() {
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="ccc">
-                        <img src={spaceportlandscape} alt="Spaceport" className="technology-image"/>
+                       
                        
                         <div className="technology-text">
                             <p className="terminology">THE TERMINOLOGY...</p>
@@ -72,12 +72,13 @@ function Technology() {
                             famous Cape Canaveral, our spaceport is ideally situated to take advantage 
                             of the Earth's rotation for launch.
                             </p>
-                        </div>    
+                        </div>  
+                        <img src={spaceportlandscape} alt="Spaceport" className="technology-image"/>  
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                     <div className="ccc">
-                        <img src={spacecapsule} alt="Space Capsule" className="technology-image"/>
+                       
                        
                         <div className="technology-text">
                             <p className="terminology">THE TERMINOLOGY...</p>
@@ -89,6 +90,7 @@ function Technology() {
                             and plenty of other activities to keep you entertained.
                             </p>
                         </div>
+                        <img src={spacecapsule} alt="Space Capsule" className="technology-image"/>
                         </div>
                     </SwiperSlide>
                 </Swiper>
