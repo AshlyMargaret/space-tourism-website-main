@@ -16,7 +16,7 @@
     background-color: white;
     position: absolute;
     left: 190px;
-    z-index: 999;
+    /* z-index: 999; */
 }
 .navBar{
     width: 600px;
@@ -52,19 +52,20 @@
     }
     a{
         text-decoration: none;
-        color: white;
+        color: #0E0D1F;
     }
     li{
         list-style: none;
     }
     .hideBar{
+        z-index: 999;
         padding-left: 20px;
         padding-top: 20px;
-        background: transparent;
-        backdrop-filter: saturate(180%) blur(10px);
-        color: white;
-        width: 200px;
-        height: 500px;
+        background: white;
+        /* backdrop-filter: saturate(180%) blur(10px); */
+        color: #0E0D1F;
+        width: 300px;
+        height: 700px;
         text-align: left;
         display: flex;
         flex-direction: column;
@@ -82,7 +83,7 @@
     .hideBar{
         position: absolute;
         top:60px;
-        right: 10px;
+        right: 0px;
     }
     .closeBtn{
       position: relative;

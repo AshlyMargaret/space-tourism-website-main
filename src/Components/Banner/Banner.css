@@ -57,5 +57,92 @@
     width: 150px;
     height: 150px;
    }
+   .leftSideDesc {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+   }
+   .leftSideDesc h1 {
+    font-size: 45px;
+   }
+   .leftSideDesc p{
+    font-size: 15px;
+    padding: 0 20px;
+   }
     
 }
+
+
+@media screen and (max-width: 576px) {
+
+    .leftSideDesc {
+     width: 100%;
+     padding: 0px;
+     text-align: center;
+    }
+    .leftSideDesc h1 {
+     font-size: 45px;
+    }
+    .leftSideDesc p{
+     font-size: 15px;
+     padding: 0 20px;
+    }
+      
+  }
+
+
+@media screen and (max-width: 414px) {
+
+    .leftSideDesc {
+     width: 100%;
+     padding: 0px;
+     text-align: center;
+    }
+    .leftSideDesc h1 {
+     font-size: 45px;
+    }
+    .leftSideDesc p{
+     font-size: 12px;
+     padding: 0 20px;
+    }
+      
+  }
+
+
+@media screen and (max-width: 375px) {
+
+    .leftSideDesc {
+     width: 100%;
+     padding: 0px;
+     text-align: center;
+    }
+    .leftSideDesc h1 {
+     font-size: 45px;
+    }
+    .leftSideDesc p{
+     font-size: 12px;
+     padding: 0 20px;
+    }
+ 
+      
+  }
+
+
+
+@media screen and (max-width: 320px) {
+
+   .leftSideDesc {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+   }
+   .leftSideDesc h1 {
+    font-size: 45px;
+   }
+   .leftSideDesc p{
+    font-size: 12px;
+    padding: 0 20px;
+   }
+
+     
+ }
